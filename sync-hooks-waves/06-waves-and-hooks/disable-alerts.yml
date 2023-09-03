@@ -5,7 +5,6 @@ metadata:
   generateName: disable-alerts-
   annotations:
     argocd.argoproj.io/hook: PreSync
-    argocd.argoproj.io/hook-delete-policy: HookSucceeded
     argocd.argoproj.io/sync-wave: "20"
   labels:
     codefresh.io/cert: disable-job  
